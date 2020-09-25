@@ -1,0 +1,36 @@
+<!--Posicione o elemento com a classe 'topleft' 30px da esquerda e 15px do topo, em relação ao seu contêiner.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .topleft {
+            position: absolute;
+            left: 30px;
+            top: 15px;
+            font-size: 18px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="imagens/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+        <div class="topleft">Top Left</div>
+    </div>
+
+</body>
+
+</html>
